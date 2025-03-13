@@ -1,0 +1,36 @@
+header {
+    background-color: #f1ecdf; /*Cor de fundo*/
+    padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+/*Estizando a imagem*/
+header div img {
+    width: 100px;
+    height: 100px;
+}
+
+/*Estilizando o Titulo*/
+header div h1{
+  
+   display: flex;
+   justify-content: center;
+}
+
+.list-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-menu ul li {
+    list-style: none;
+}
+.list-menu ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
