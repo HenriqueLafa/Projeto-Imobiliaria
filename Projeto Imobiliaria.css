@@ -38,7 +38,7 @@ header div h1{
 .Primeira {
     text-align: center;
     padding: 200px;
-    background-image:url(house-1867187_1280.jpg);
+    background-image:url(imagem/house-1867187_1280.jpg);
     background-position: center;
    
     display: flex;
@@ -49,9 +49,137 @@ header div h1{
 .Primeira button {
 padding: 10px;
 width: 250px;
-background-color: rgb(255, 0, 0);
+background-color: rgba(128, 128, 128, 0.863);
+color: white;
+
+}
+
+.Segunda {
+     padding: 150px; /*Preenchimento/Tamanho da Section*/
+    background-color: rgb(22, 21, 21); /*Cor de fundo*/
+    display: flex; /*Deixando as divs lado a lado*/
+    gap: 15px; /*Espaçamento entre as caixas*/
+    justify-content: space-evenly; /*Justificando os conteudo*/
+    font-size: 20px;
+}
+
+.Segunda div {
+    width: 300px; /*Largura da caixa*/
+    height: 300px; /*Altura da caixa*/
+    background-color: gray; /*Cor de fundo da caixa*/
+   text-align: center;
+   padding: 15px;
+
+}
+.div-02 {
+    background-image: url(imagem/casa\ quadrada.jpg);
+    background-size: cover;
+    
+}
+
+div i {
+    color: yellow;
+}
+
+.div-03  img{
+    width: 100px;
+    height: 100px;
+}
+
+.div-03 p {
+    font-size: 17px; /*Tamanho da letra*/
+    color: white; /*Cor da letra*/
+    font-weight: 600; /*PESO DA FONTE*/
+    line-height: 25px;
+}
+
+.Terceira {
+    padding: 160px; /*Prenchimento / tamanho*/
+    background-color:#d8d8d8; /*cor de fundo*/
+    display: flex; /*tornando flex / lado a lado */
+    justify-content: center; /*justificando conteudo ao centro*/
+    align-items: center; /*alinhamento vertical dos itens*/
+    gap: 60px; /*espaço entre os elementos*/
+
+
+}
+
+.Terceira span {
+   
+        font-size: 30px; /*tamanho da letra */
+        color: rgba(112, 6, 112, 0.863); /*cor da letra*/
+        font-weight: 800; /*Peso da fonte*/
+    }
+
+
+
+.Terceira p {
+    
+    font-size: 30px;
+   
+    
+}
+.Terceira img {
+width: 500px;
+height: 470px;
+border-radius: 15px; /*Borda aperfeiçoada*/
+}
+
+.Quarta {
+    background-color: #604848;
+    padding: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.Quarta p {
+    font-size: 30px;
+    background-color: rgba(165, 42, 42, 0.288);
+    color: white;
+}
+
+
+
+
+.Quarta iframe {
+width: 900px;
+height: 300px;
+border-radius: 15px;
+
+}
+
+footer {
+padding: 10px;
+background-color: #484848;
+text-align: center;
+line-height: 10px;
 color: white;
 
 
+}
+
+footer img {
+width: 50px;
+height: 50px;
+
+}
+
+footer p {
+font-size: 25px;
+
+}
+
+.kevin {
+font-size:20px;
+font-weight: 600;
+
+}
+
+.aroldo {
+font-size: 20px;
+font-weight: 600;
 
 }
