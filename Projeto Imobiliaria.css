@@ -16,9 +16,12 @@ header div img {
 
 /*Estilizando o Titulo*/
 header div h1{
-  
+ font-size: 35px;
    display: flex;
    justify-content: center;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .list-menu ul {
