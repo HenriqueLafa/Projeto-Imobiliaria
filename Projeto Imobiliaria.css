@@ -186,3 +186,62 @@ font-size: 21px;
 font-weight: 600;
 
 }
+
+@media screen and (max-width: 1020px) {
+    
+    .Primeira {
+        flex-direction: column;
+        
+        }
+
+        div-01 h2 {
+            font-size: 34px;
+            
+            }
+
+
+            .list-menu {
+                display: none
+               }
+            
+
+               header div h1 {
+                font-size: 30px;
+                
+            
+               }
+
+
+
+               header {
+                padding: 20px 8%;
+                gap: 40px;
+                
+                   }
+
+
+                   header div img{
+                    width: 100%;
+                
+                   }
+
+                   .Segunda {
+                    padding: 40px 4%;
+                    
+                       }
+
+
+                       .Terceira {
+                        width: 100%;
+                        max-width: 360px;
+                        margin: 0 auto;
+                        
+                        }
+            
+            
+            
+            
+            
+                    }
+
+
