@@ -35,7 +35,8 @@ header div h1{
 }
 .list-menu ul li a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.87);
+    color: black;
+    font-weight: 600;
 }
 
 .Primeira {
@@ -43,8 +44,9 @@ header div h1{
     padding: 200px;
     background-image:url(imagem/house-1867187_1280.jpg);
     background-position: center;
-   
-    display: flex;
+    background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -140,7 +142,7 @@ border-radius: 15px; /*Borda aperfeiçoada*/
 
 .Quarta p {
     font-size: 30px;
-    background-color: rgba(165, 42, 42, 0.288);
+    background-color: rgba(8, 156, 201, 0.288);
     color: white;
 }
 
