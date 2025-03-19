@@ -2,7 +2,7 @@ header {
     background-color: #f1ecdf; /*Cor de fundo*/
     padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 50px;
     align-items: center;
     
@@ -16,7 +16,7 @@ header div img {
 
 /*Estilizando o Titulo*/
 header div h1{
- font-size: 35px;
+ font-size: 40px;
    display: flex;
    justify-content: center;
    font-weight: 600;
