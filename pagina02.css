@@ -1,0 +1,117 @@
+
+    
+header {
+    background-color: #f1ecdf; /*Cor de fundo*/
+    padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+/*Estizando a imagem*/
+header div img {
+    width: 100px;
+    height: 100px;
+}
+
+/*Estilizando o Titulo*/
+header div h1{
+ font-size: 40px;
+   display: flex;
+   justify-content: center;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.list-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-menu ul li {
+    list-style: none;
+}
+.list-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.Primeiro h2 {
+display: flex;
+justify-content: center;
+font-size: 45px;
+background-color: #d8d8d8;
+
+}
+
+.div-04 img {
+   width: 400px; 
+   height: 300px;
+}
+
+.div-04 {
+background-color: rgba(128, 128, 128, 0.356);
+width: 400px;
+height: 500px;
+text-align: center;
+line-height: 10px;
+padding: 30px;
+
+
+}
+
+.div-04 h3 {
+font-size: 30px;
+
+
+}
+.venda {
+    font-size: 25px;
+}
+
+.preço {
+font-size: 30px;
+
+}
+
+footer {
+    padding: 10px;
+    background-color: #484848;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+    
+    
+    }
+    
+    footer img {
+    width: 50px;
+    height: 50px;
+    
+    }
+    
+    footer p {
+    font-size: 25px;
+    
+    }
+    
+    .kevin {
+    font-size:20px;
+    font-weight: 600;
+    
+    }
+    
+    .aroldo {
+    font-size: 21px;
+    font-weight: 600;
+    
+    }
+
+
+    
