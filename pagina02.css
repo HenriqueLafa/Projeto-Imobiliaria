@@ -1,5 +1,10 @@
 
-    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     background-color: #f1ecdf; /*Cor de fundo*/
     padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
@@ -42,13 +47,55 @@ header div h1{
 }
 
 
-.Primeiro h2 {
+h2 {
+  text-align: center;  
+  font-size: 40px;
+}
+
+
+
+.Primeiro {
 display: flex;
 justify-content: center;
+flex-direction: column; /*Deixou em colunas(aplicar só na sessão) */
+/* padding-bottom: 30px;
+padding-top: 30px; */
+}
+
+
+.Primeiro h2 {
+
 font-size: 45px;
-background-color: #d8d8d8;
+background-color:#f1ecdf;
 
 }
+
+
+
+
+
+
+.div-pai-caixas {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+   
+    
+}
+
+.div-pai-caixas div {
+border-radius: 15px;
+}
+
+
+
+.div-pai-caixas div:hover {
+box-shadow: 20px 20px 30px black;
+transition: 0.8s;
+
+}
+
+
 
 .div-04 img {
    width: 400px; 
@@ -60,15 +107,19 @@ background-color: rgba(128, 128, 128, 0.356);
 width: 400px;
 height: 500px;
 text-align: center;
-line-height: 10px;
+line-height: 40px;
 padding: 30px;
-
 
 }
 
 .div-04 h3 {
 font-size: 30px;
 
+
+}
+
+.Cidade {
+font-size: 20px;
 
 }
 .venda {
@@ -80,11 +131,80 @@ font-size: 30px;
 
 }
 
+.div-05 {
+    background-color: rgba(128, 128, 128, 0.356);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    line-height: 40px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.div-05 img {
+    width: 400px; 
+    height: 300px;
+
+
+}
+
+.div-05 h4 {
+    font-size: 30px;
+
+
+}
+
+.vendaI {
+    font-size: 25px;
+
+}
+
+.preçoI {
+    font-size: 30px;
+
+}
+
+.CidadeI {
+    font-size: 20px;
+    padding: -5px 10px;
+
+
+}
+.div-06 {
+    background-color: rgba(128, 128, 128, 0.356);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    line-height: 40px;
+    padding: 30px;
+
+
+
+}
+
+.div-06 img {
+    width: 400px; 
+    height: 300px;
+
+
+}
+
+.div-06 h5 {
+    font-size: 30px;
+
+}
+
+
+
+
+
+
 footer {
     padding: 10px;
     background-color: #484848;
     text-align: center;
-    line-height: 10px;
+    line-height: 30px;
     color: white;
     
     
