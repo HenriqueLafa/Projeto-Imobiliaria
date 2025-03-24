@@ -58,6 +58,15 @@ background-color: rgba(128, 128, 128, 0.863);
 color: white;
 
 }
+.Primeira button:hover {
+background-color: beige;
+transition: 0.7s;
+color: black;
+
+
+}
+
+
 
 .Segunda {
      padding: 150px; /*Preenchimento/Tamanho da Section*/
