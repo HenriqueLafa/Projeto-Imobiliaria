@@ -195,10 +195,99 @@ font-size: 30px;
 
 }
 
+.Segundo {
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+.Predios {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.Predios div {
+    border-radius: 15px;
+    }
+
+ .Predios div:hover {
+        box-shadow: 20px 20px 30px black;
+        transition: 0.8s;
+        
+        }
+
+    .Predio-01 img {
+            width: 400px; 
+            height: 300px;
+     }
+
+     .Predio-01 {
+        background-color: rgba(128, 128, 128, 0.356);
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        line-height: 40px;
+        padding: 30px;
+        
+        }
+
+        .Predio-01 h6 {
+            font-size: 30px;
+            
+            
+            }
+
+ .Predio-02 {
+     background-color: rgba(128, 128, 128, 0.356);
+    width: 400px;
+    height: 500px;
+ text-align: center;
+     line-height: 40px;
+     padding: 30px;
 
 
 
 
+            } 
+  
+ .Predio-02 img {
+    width: 400px; 
+    height: 300px;
+
+
+   }
+                
+    .Predio-02 h7 {
+font-size: 30px;
+font-weight: bold;
+                    
+     } 
+
+
+ .Predio-03 {
+
+  background-color: rgba(128, 128, 128, 0.356);
+  width: 400px;
+   height: 500px;
+   text-align: center;
+  line-height: 40px;
+  padding: 30px;
+ } 
+ .Predio-03 img {
+    width: 400px; 
+    height: 300px;
+
+ }
+    
+ .Predio-03 h8 {
+    font-size: 30px;
+    font-weight: bold;
+                        
+ } 
 
 footer {
     padding: 10px;
