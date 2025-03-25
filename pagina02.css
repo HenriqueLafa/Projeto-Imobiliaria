@@ -14,7 +14,12 @@ header {
     align-items: center;
     
 }
+header ul li a:hover {
+color: blue;
+transition: 0.8s;
 
+
+}
 /*Estizando a imagem*/
 header div img {
     width: 100px;
@@ -323,4 +328,12 @@ footer {
     }
 
 
-    
+    footer:hover {
+        color: blue;
+        transition: 0.8s;
+        
+        
+        
+        }
+        
+        

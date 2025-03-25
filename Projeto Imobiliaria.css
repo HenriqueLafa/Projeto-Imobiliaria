@@ -24,6 +24,13 @@ header div h1{
   
 }
 
+header ul li a:hover {
+    color: blue;
+    transition: 0.8s;
+    
+    
+    }
+
 .list-menu ul {
     display: flex;
     justify-content: center;
@@ -198,6 +205,12 @@ font-weight: 600;
 
 }
 
+footer:hover {
+color: blue;
+transition: 0.8s;
 
+
+
+}
 
 
