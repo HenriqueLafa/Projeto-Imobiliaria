@@ -21,7 +21,7 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;
     width: 300px;
-    height: 380px;
+    height: 680px;
 }
 
 form {
@@ -69,3 +69,10 @@ h2, p {
     font-weight: 800;
     text-align: center;
 }
+
+a {
+padding: 20px;
+
+
+}
+
