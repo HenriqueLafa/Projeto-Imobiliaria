@@ -21,7 +21,7 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;
     width: 300px;
-    height: 620px;
+    height: 750px;
 }
 
 form {
@@ -50,7 +50,7 @@ label {
 .btn-form {
     background-color: #a70fd5; /*cor de fundo do btn*/
     color: white; /*cor da letra*/
-    padding: 10px; /*Espaçamento interno*/
+    padding: 20px; /*Espaçamento interno*/
     border: none; /*bordar = nenhuma/sem borda*/
     border-radius: 5px;/*Arredondamento do btn*/
     font-size: 16px; /*Tamanho da letra*/
