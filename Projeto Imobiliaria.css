@@ -284,7 +284,7 @@ flex-direction: column;
 
 }
 .Terceira span {
-font-size: 60px;
+font-size: 50px;
 
 
 }
@@ -304,5 +304,17 @@ height: 100px;
 
 }
 
+
+
+}
+
+@media (max-width:900px) {
+
+.Primeira Button {
+    margin-right: 4em;
+    
+    
+    
+    }
 
 }
