@@ -246,3 +246,63 @@ transition: 0.8s;
 }
 
 
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .Segunda {
+
+flex-direction: column;
+align-items: center;
+
+
+
+}
+.list-menu {
+
+display: none;
+
+}
+
+.Terceira {
+
+flex-direction: column;
+align-items: center;
+
+
+
+
+}
+
+.Terceira p {
+flex-direction: column;
+
+
+
+}
+.Terceira span {
+font-size: 60px;
+
+
+}
+
+.Quarta {
+flex-direction: column;
+font-size: 60px;
+
+
+
+}
+
+.Iframe {
+height: 100px;
+
+
+
+}
+
+
+}
