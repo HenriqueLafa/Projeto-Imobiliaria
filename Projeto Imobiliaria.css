@@ -1,11 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 header {
-    background-color: #f1ecdf; /*Cor de fundo*/
-    padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
+    background-color: #f1ecdf;
+    /*Cor de fundo*/
+    padding: 25px;
+    /*Respnsavel pelo prenchimento interno/tamanho*/
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
     align-items: center;
-    
+
 }
 
 /*Estizando a imagem*/
@@ -15,18 +22,18 @@ header div img {
 }
 
 /*Estilizando o Titulo*/
-header div h1{
- font-size: 40px;
-   display: flex;
-   justify-content: center;
-   font-weight: 600;
-   font-family: Arial, Helvetica, sans-serif;
-  
+header div h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
- .fa-user {
-color: #0a0606;
-font-size: 30px;
+.fa-user {
+    color: #0a0606;
+    font-size: 30px;
 
 
 
@@ -35,9 +42,9 @@ font-size: 30px;
 header ul li a:hover {
     color: blue;
     transition: 0.8s;
-    
-    
-    }
+
+
+}
 
 .list-menu ul {
     display: flex;
@@ -48,6 +55,7 @@ header ul li a:hover {
 .list-menu ul li {
     list-style: none;
 }
+
 .list-menu ul li a {
     text-decoration: none;
     color: black;
@@ -57,26 +65,27 @@ header ul li a:hover {
 .Primeira {
     text-align: center;
     padding: 200px;
-    background-image:url(imagem/house-1867187_1280.jpg);
+    background-image: url(imagem/house-1867187_1280.jpg);
     background-position: center;
     background-repeat: no-repeat;
-   background-size: cover;
-   display: flex;
+    background-size: cover;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .Primeira button {
-padding: 10px;
-width: 250px;
-background-color: rgba(128, 128, 128, 0.863);
-color: white;
+    padding: 10px;
+    width: 250px;
+    background-color: rgba(128, 128, 128, 0.863);
+    color: white;
 
 }
+
 .Primeira button:hover {
-background-color: beige;
-transition: 0.7s;
-color: black;
+    background-color: beige;
+    transition: 0.7s;
+    color: black;
 
 
 }
@@ -84,89 +93,112 @@ color: black;
 
 
 .Segunda {
-     padding: 150px; /*Preenchimento/Tamanho da Section*/
-    background-color: rgb(22, 21, 21); /*Cor de fundo*/
-    display: flex; /*Deixando as divs lado a lado*/
-    gap: 15px; /*Espaçamento entre as caixas*/
-    justify-content: space-evenly; /*Justificando os conteudo*/
+    padding: 150px;
+    /*Preenchimento/Tamanho da Section*/
+    background-color: rgb(22, 21, 21);
+    /*Cor de fundo*/
+    display: flex;
+    /*Deixando as divs lado a lado*/
+    gap: 15px;
+    /*Espaçamento entre as caixas*/
+    justify-content: space-evenly;
+    /*Justificando os conteudo*/
     font-size: 20px;
 }
 
 .Segunda div {
-    width: 300px; /*Largura da caixa*/
-    height: 300px; /*Altura da caixa*/
-    background-color: rgba(128, 128, 128, 0.938); /*Cor de fundo da caixa*/
-   text-align: center;
-   padding: 15px;
+    width: 300px;
+    /*Largura da caixa*/
+    height: 300px;
+    /*Altura da caixa*/
+    background-color: rgba(128, 128, 128, 0.938);
+    /*Cor de fundo da caixa*/
+    text-align: center;
+    padding: 15px;
 
 }
+
 .div-02 {
     background-image: url(imagem/casa\ quadrada.jpg);
     background-size: cover;
-    
+
 }
 
 div i {
     color: yellow;
 }
 
-.div-03  img{
+.div-03 img {
     width: 100px;
     height: 100px;
 
 
 }
 
-.div-03  img:hover {
-box-shadow: 10px 10px 20px;
-transition: 0.7s;
+.div-03 img:hover {
+    box-shadow: 10px 10px 20px;
+    transition: 0.7s;
 
 
 }
 
 .div-03 p {
-    font-size: 17px; /*Tamanho da letra*/
-    color: white; /*Cor da letra*/
-    font-weight: 600; /*PESO DA FONTE*/
+    font-size: 17px;
+    /*Tamanho da letra*/
+    color: white;
+    /*Cor da letra*/
+    font-weight: 600;
+    /*PESO DA FONTE*/
     line-height: 25px;
 }
 
 .Terceira {
-    padding: 160px; /*Prenchimento / tamanho*/
-    background-color:#d8d8d8; /*cor de fundo*/
-    display: flex; /*tornando flex / lado a lado */
-    justify-content: center; /*justificando conteudo ao centro*/
-    align-items: center; /*alinhamento vertical dos itens*/
-    gap: 60px; /*espaço entre os elementos*/
+    padding: 160px;
+    /*Prenchimento / tamanho*/
+    background-color: #d8d8d8;
+    /*cor de fundo*/
+    display: flex;
+    /*tornando flex / lado a lado */
+    justify-content: center;
+    /*justificando conteudo ao centro*/
+    align-items: center;
+    /*alinhamento vertical dos itens*/
+    gap: 60px;
+    /*espaço entre os elementos*/
 
 
 }
 
 .Terceira span {
-   
-        font-size: 30px; /*tamanho da letra */
-        color: rgba(112, 6, 112, 0.863); /*cor da letra*/
-        font-weight: 800; /*Peso da fonte*/
-    }
+
+    font-size: 30px;
+    /*tamanho da letra */
+    color: rgba(112, 6, 112, 0.863);
+    /*cor da letra*/
+    font-weight: 800;
+    /*Peso da fonte*/
+}
 
 
 
 .Terceira p {
-    
+
     font-size: 30px;
-   
-    
+
+
 }
+
 .Terceira img {
-width: 500px;
-height: 470px;
-border-radius: 15px; /*Borda aperfeiçoada*/
+    width: 500px;
+    height: 470px;
+    border-radius: 15px;
+    /*Borda aperfeiçoada*/
 
 }
 
 .Terceira img:hover {
-box-shadow: 10px 10px 20px;
-transition: 0.7s;
+    box-shadow: 10px 10px 20px;
+    transition: 0.7s;
 
 
 }
@@ -178,68 +210,70 @@ transition: 0.7s;
     justify-content: space-evenly;
     gap: 50px;
     align-items: center;
-    
+
 }
 
 .Quarta p {
     font-size: 30px;
     background-color: rgba(8, 156, 201, 0.288);
     color: white;
+    padding: 30px;
 }
 
 
 
 
 .Quarta iframe {
-width: 900px;
-height: 300px;
-border-radius: 15px;
+    width: 900px;
+    height: 300px;
+    border-radius: 15px;
 
 
 }
 
 .Quarta iframe:hover {
-box-shadow: 10px 10px 20px black;
-transition: 0.7s;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.7s;
 
 
 }
+
 footer {
-padding: 10px;
-background-color: #484848;
-text-align: center;
-line-height: 10px;
-color: white;
+    padding: 10px;
+    background-color: #484848;
+    text-align: center;
+    line-height: 10px;
+    color: white;
 
 
 }
 
 footer img {
-width: 50px;
-height: 50px;
+    width: 50px;
+    height: 50px;
 
 }
 
 footer p {
-font-size: 25px;
+    font-size: 25px;
 
 }
 
 .kevin {
-font-size:20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 
 }
 
 .aroldo {
-font-size: 21px;
-font-weight: 600;
+    font-size: 21px;
+    font-weight: 600;
 
 }
 
 footer:hover {
-color: blue;
-transition: 0.8s;
+    color: blue;
+    transition: 0.8s;
 
 
 
@@ -247,74 +281,98 @@ transition: 0.8s;
 
 
 @media (max-width: 768px) {
-    header {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
+   
+
+  .div-img img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .title-header h1 {
+    font-size: 1rem;
+  }
 
     .Segunda {
 
-flex-direction: column;
-align-items: center;
+        flex-direction: column;
+        align-items: center;
 
 
 
-}
-.list-menu {
-
-display: none;
-
-}
-
-.Terceira {
-
-flex-direction: column;
-align-items: center;
-
-
-
-
-}
-
-.Terceira p {
-flex-direction: column;
-
-
-
-}
-.Terceira span {
-font-size: 50px;
-
-
-}
-
-.Quarta {
-flex-direction: column;
-font-size: 60px;
-
-
-
-}
-
-.Iframe {
-height: 100px;
-
-
-
-}
-
-
-
-}
-
-@media (max-width:900px) {
-
-.Primeira Button {
-    margin-right: 4em;
-    
-    
-    
     }
 
+    .list-menu {
+
+        display: none;
+
+    }
+
+    .Terceira {
+
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+
+
+
+
+
+    }
+
+    .Terceira p {
+        flex-direction: column;
+
+
+
+    }
+
+    .Terceira span {
+        font-size: 50px;
+
+
+    }
+
+    .Quarta {
+        flex-direction: column;
+        font-size: 60px;
+
+
+
+    }
+
+
+
+    .Terceira img {
+        height: 20em;
+        width: 20em;
+
+
+    }
+
+    .Quarta div {
+        min-width: 299px;
+
+
+    }
+
+    .Quarta {
+
+        padding: 1em;
+    }
+
+
+    .Quarta iframe {
+        width: 5em;
+        height: 5em;
+
+
+    }
+    .Primeira Button {
+     
+margin-right: 1em;
+
+
+    }
 }
+
+
