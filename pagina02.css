@@ -311,7 +311,7 @@ footer {
     }
     
     footer p {
-    font-size: 25px;
+    font-size: 20px;
     
     }
     
@@ -349,10 +349,21 @@ footer {
 
 
         .Primeiro {
-display: flex;
-justify-content: center;
+
 flex-wrap: wrap;
+min-width: 300px;
 
         }
 
+        .div-pai-caixas {
+    
+            flex-wrap: wrap;
+            min-width: 300px;
+            flex-direction: column;
+        
+    
+    
     }
+
+
+

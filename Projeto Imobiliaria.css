@@ -239,11 +239,12 @@ div i {
 }
 
 footer {
-    padding: 10px;
+    padding: 20px;
     background-color: #484848;
     text-align: center;
     line-height: 10px;
     color: white;
+    line-height: 30px;
 
 
 }
@@ -286,6 +287,7 @@ footer:hover {
   .div-img img {
     width: 3rem;
     height: 3rem;
+ 
   }
 
   .title-header h1 {
@@ -296,6 +298,7 @@ footer:hover {
 
         flex-direction: column;
         align-items: center;
+      
 
 
 
@@ -312,6 +315,7 @@ footer:hover {
         flex-direction: column;
         align-items: center;
         padding: 2rem;
+       
 
 
 
@@ -335,7 +339,7 @@ footer:hover {
     .Quarta {
         flex-direction: column;
         font-size: 60px;
-
+ 
 
 
     }
@@ -345,6 +349,7 @@ footer:hover {
     .Terceira img {
         height: 20em;
         width: 20em;
+       
 
 
     }
@@ -358,12 +363,14 @@ footer:hover {
     .Quarta {
 
         padding: 1em;
+      
     }
 
 
     .Quarta iframe {
         width: 5em;
         height: 5em;
+      
 
 
     }
@@ -372,15 +379,12 @@ footer:hover {
 margin-right: 1em;
 
 
+
   
 
 }
 
-.footer {
 
-padding: ;
-
-}
 
 
 }
