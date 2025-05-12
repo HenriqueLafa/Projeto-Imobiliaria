@@ -4,7 +4,13 @@
     padding: 0;
 }
 
-
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
 header {
     background-color: #f1ecdf; /*Cor de fundo*/
     padding: 25px; /*Respnsavel pelo prenchimento interno/tamanho*/
@@ -103,13 +109,15 @@ transition: 0.8s;
 
 
 .div-04 img {
-   width: 400px; 
+  width: 100%;
+max-width: 400px;
    height: 300px;
 }
 
 .div-04 {
 background-color: rgba(128, 128, 128, 0.356);
-width: 400px;
+width: 100%;
+max-width: 400px;
 height: 500px;
 text-align: center;
 line-height: 40px;
@@ -138,7 +146,8 @@ font-size: 30px;
 
 .div-05 {
     background-color: rgba(128, 128, 128, 0.356);
-    width: 400px;
+  width: 100%;
+max-width: 400px;
     height: 500px;
     text-align: center;
     line-height: 40px;
@@ -148,7 +157,8 @@ font-size: 30px;
 }
 
 .div-05 img {
-    width: 400px; 
+   width: 100%;
+max-width: 400px;
     height: 300px;
 
 
@@ -178,7 +188,8 @@ font-size: 30px;
 }
 .div-06 {
     background-color: rgba(128, 128, 128, 0.356);
-    width: 400px;
+   width: 100%;
+max-width: 400px;
     height: 500px;
     text-align: center;
     line-height: 40px;
@@ -189,7 +200,8 @@ font-size: 30px;
 }
 
 .div-06 img {
-    width: 400px; 
+    width: 100%;
+max-width: 400px;
     height: 300px;
 
 
@@ -226,13 +238,15 @@ flex-direction: column;
         }
 
     .Predio-01 img {
-            width: 400px; 
+           width: 100%;
+max-width: 400px;
             height: 300px;
      }
 
      .Predio-01 {
         background-color: rgba(128, 128, 128, 0.356);
-        width: 400px;
+     width: 100%;
+max-width: 400px;
         height: 500px;
         text-align: center;
         line-height: 40px;
@@ -248,7 +262,8 @@ flex-direction: column;
 
  .Predio-02 {
      background-color: rgba(128, 128, 128, 0.356);
-    width: 400px;
+   width: 100%;
+max-width: 400px;
     height: 500px;
  text-align: center;
      line-height: 40px;
@@ -260,7 +275,8 @@ flex-direction: column;
             } 
   
  .Predio-02 img {
-    width: 400px; 
+    width: 100%;
+max-width: 400px;
     height: 300px;
 
 
@@ -276,14 +292,16 @@ font-weight: bold;
  .Predio-03 {
 
   background-color: rgba(128, 128, 128, 0.356);
-  width: 400px;
+  width: 100%;
+max-width: 400px;
    height: 500px;
    text-align: center;
   line-height: 40px;
   padding: 30px;
  } 
  .Predio-03 img {
-    width: 400px; 
+width: 100%;
+max-width: 400px;
     height: 300px;
 
  }
@@ -336,34 +354,63 @@ footer {
         
         }
         
-        @media (max-width: 768px) {
-            header {
-                
-                      flex-direction: column;
-                      align-items: center;
-                      text-align: center;
-                    
-            
+      @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
 
-        }
+  .list-menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 
+  .div-pai-caixas,
+  .Predios {
+    flex-direction: column;
+    align-items: center;
+  }
 
-        .Primeiro {
+  .div-04,
+  .div-05,
+  .div-06,
+  .Predio-01,
+  .Predio-02,
+  .Predio-03 {
+    width: 90%;
+    height: auto;
+    padding: 16px;
+  }
 
-flex-wrap: wrap;
-min-width: 300px;
+  .div-04 img,
+  .div-05 img,
+  .div-06 img,
+  .Predio-01 img,
+  .Predio-02 img,
+  .Predio-03 img {
+    width: 100%;
+    height: auto;
+  }
 
-        }
+  h1 {
+    font-size: 28px;
+  }
 
-        .div-pai-caixas {
-    
-            flex-wrap: wrap;
-            min-width: 300px;
-            flex-direction: column;
-        
-    
-    
-    }
+  h2 {
+    font-size: 30px;
+  }
 
+  h3, h4, h5, h6, h7, h8 {
+    font-size: 24px;
+  }
 
+  footer p {
+    font-size: 16px;
+  }
 
+  footer img {
+    width: 40px;
+    height: 40px;
+  }
+}
