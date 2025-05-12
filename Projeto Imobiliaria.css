@@ -1,13 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden; /* evita rolagem lateral */
+    overflow-x: hidden;
+    /* evita rolagem lateral */
 }
 
 header {
@@ -292,39 +294,40 @@ footer:hover {
 
 @media (max-width: 768px) {
     * {
-    box-sizing: border-box;
-  }
+        box-sizing: border-box;
+    }
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-
-  .div-img img {
-    width: 3rem;
-    height: 3rem;
- 
-  }
-
-  .Primeira {
-background-position: center top;
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
 
 
-    
-  }
+    .div-img img {
+        width: 3rem;
+        height: 3rem;
 
-  .title-header h1 {
-    font-size: 1rem;
-  }
+    }
+
+    .Primeira {
+        background-position: center top;
+
+
+
+    }
+
+    .title-header h1 {
+        font-size: 1rem;
+    }
 
     .Segunda {
 
         flex-direction: column;
         align-items: center;
-      
+
 
 
 
@@ -341,7 +344,7 @@ background-position: center top;
         flex-direction: column;
         align-items: center;
         padding: 2rem;
-       
+
 
 
 
@@ -365,7 +368,7 @@ background-position: center top;
     .Quarta {
         flex-direction: column;
         font-size: 60px;
- 
+
 
 
     }
@@ -375,7 +378,7 @@ background-position: center top;
     .Terceira img {
         height: 20em;
         width: 20em;
-       
+
 
 
     }
@@ -389,33 +392,28 @@ background-position: center top;
     .Quarta {
 
         padding: 1em;
-      
+
     }
 
 
     .Quarta iframe {
         width: 5em;
         height: 5em;
-      
+
 
 
     }
+
     .Primeira Button {
-     
-margin-right: 1em;
+
+        margin-right: 1em;
 
 
 
-  
+
+
+    }
+
+
 
 }
-
-
-
-}
-
-
-
-
-
-
