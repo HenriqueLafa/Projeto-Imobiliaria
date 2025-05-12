@@ -71,10 +71,12 @@ header ul li a:hover {
 
 .Primeira {
     text-align: center;
-    padding: 200px;
+    padding: 12.5em;
     background-image: url(imagem/house-1867187_1280.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -305,6 +307,13 @@ footer:hover {
     width: 3rem;
     height: 3rem;
  
+  }
+
+  .Primeira {
+background-position: center top;
+
+
+    
   }
 
   .title-header h1 {
