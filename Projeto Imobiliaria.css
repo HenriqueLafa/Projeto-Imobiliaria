@@ -129,6 +129,12 @@ header ul li a:hover {
 
 }
 
+.Segunda div:hover {
+transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
+
 .div-02 {
     background-image: url(imagem/casa\ quadrada.jpg);
     background-size: cover;
